@@ -59,8 +59,8 @@ if starting:
 	# With the game's built in steering settings, there's no need to change the scr value
 	# SCR's effects can be felt better with arcade style racing games
 	global mouse_sensitivity, sensitivity_center_reduction
-	mouse_sensitivity = 15
-	sensitivity_center_reduction = 0.9
+	mouse_sensitivity = 12
+	sensitivity_center_reduction = 0.8
 	# =============================================================================================
 	# Steering settings
 	# =============================================================================================
@@ -244,4 +244,5 @@ diagnostics.watch(v.z)
 diagnostics.watch(throttle_hold_set)
 diagnostics.watch(throttle_sec_set)
 diagnostics.watch(throttle_low_set)
+
 diagnostics.watch(v.x) #diagnostic output if steering is enabled
